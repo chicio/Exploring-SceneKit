@@ -1,6 +1,6 @@
 # Exploring-SceneKit
 
-A simple demo created to get confident with ScneKit and explore the capability of the framework
+A simple demo created to get confident with SceneKit and explore the capability of the framework.
 
 ###Description
 
