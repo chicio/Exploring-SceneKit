@@ -20,7 +20,6 @@
 		5F8F6E3B1BB6069000D506F4 /* SceneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E301BB6069000D506F4 /* SceneTableViewController.m */; };
 		5F8F6E3C1BB6069000D506F4 /* SceneRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E321BB6069000D506F4 /* SceneRenderViewController.m */; };
 		5F8F6E3F1BB6069000D506F4 /* SceneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E391BB6069000D506F4 /* SceneFactory.m */; };
-		5F9B27EC1BBB50DE00499296 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B27EB1BBB50DE00499296 /* README.md */; };
 		5FC07B0D1BACD601004CC435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC07B0C1BACD601004CC435 /* main.m */; };
 		5FC07B101BACD601004CC435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC07B0F1BACD601004CC435 /* AppDelegate.m */; };
 		5FC07B121BACD601004CC435 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC07B111BACD601004CC435 /* art.scnassets */; };
@@ -57,7 +56,6 @@
 		5F8F6E321BB6069000D506F4 /* SceneRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneRenderViewController.m; sourceTree = "<group>"; };
 		5F8F6E381BB6069000D506F4 /* SceneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneFactory.h; sourceTree = "<group>"; };
 		5F8F6E391BB6069000D506F4 /* SceneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneFactory.m; sourceTree = "<group>"; };
-		5F9B27EB1BBB50DE00499296 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ExploringSceneKit/README.md; sourceTree = "<group>"; };
 		5FC07B081BACD601004CC435 /* ExploringSceneKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploringSceneKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC07B0C1BACD601004CC435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FC07B0E1BACD601004CC435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 		5FC07AFF1BACD601004CC435 = {
 			isa = PBXGroup;
 			children = (
-				5F9B27EB1BBB50DE00499296 /* README.md */,
 				5FC07B0A1BACD601004CC435 /* ExploringSceneKit */,
 				5FC07B091BACD601004CC435 /* Products */,
 			);
@@ -280,7 +277,6 @@
 			files = (
 				5F8F6E3C1BB6069000D506F4 /* SceneRenderViewController.m in Sources */,
 				5FC07B101BACD601004CC435 /* AppDelegate.m in Sources */,
-				5F9B27EC1BBB50DE00499296 /* README.md in Sources */,
 				5F669ABB1BB60A98003139EC /* SceneBalls.m in Sources */,
 				5F669ABC1BB60A98003139EC /* SceneCollada.m in Sources */,
 				5F8F6E3A1BB6069000D506F4 /* SceneSplitViewController.m in Sources */,
