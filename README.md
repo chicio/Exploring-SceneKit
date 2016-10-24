@@ -1,5 +1,6 @@
 # Exploring-SceneKit
 
+[![Build Status](https://travis-ci.org/chicio/Exploring-SceneKit.svg?branch=master)](https://travis-ci.org/chicio/Exploring-SceneKit)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/LICENSE.md)
 ![Supported platform] (https://img.shields.io/badge/platforms-iOS-orange.svg)
 
