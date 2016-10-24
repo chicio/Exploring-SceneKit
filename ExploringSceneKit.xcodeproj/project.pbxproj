@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F005DE71BB0AADC0048E2BE /* checked1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F005DE41BB0AADC0048E2BE /* checked1.jpg */; settings = {ASSET_TAGS = (); }; };
-		5F005DE81BB0AADC0048E2BE /* checked2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F005DE51BB0AADC0048E2BE /* checked2.jpg */; settings = {ASSET_TAGS = (); }; };
-		5F005DE91BB0AADC0048E2BE /* floor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F005DE61BB0AADC0048E2BE /* floor.jpg */; settings = {ASSET_TAGS = (); }; };
-		5F005DEB1BB0B0520048E2BE /* pool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F005DEA1BB0B0520048E2BE /* pool.jpg */; settings = {ASSET_TAGS = (); }; };
-		5F33507B1BB20CFE003569B8 /* marble1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F3350781BB20CFE003569B8 /* marble1.jpg */; settings = {ASSET_TAGS = (); }; };
-		5F33507C1BB20CFE003569B8 /* marble3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F3350791BB20CFE003569B8 /* marble3.jpg */; settings = {ASSET_TAGS = (); }; };
-		5F33507D1BB20CFE003569B8 /* marble2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F33507A1BB20CFE003569B8 /* marble2.jpg */; settings = {ASSET_TAGS = (); }; };
-		5F669ABB1BB60A98003139EC /* SceneBalls.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F669AB81BB60A98003139EC /* SceneBalls.m */; settings = {ASSET_TAGS = (); }; };
-		5F669ABC1BB60A98003139EC /* SceneCollada.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F669ABA1BB60A98003139EC /* SceneCollada.m */; settings = {ASSET_TAGS = (); }; };
-		5F8F6E3A1BB6069000D506F4 /* SceneSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E2E1BB6069000D506F4 /* SceneSplitViewController.m */; settings = {ASSET_TAGS = (); }; };
-		5F8F6E3B1BB6069000D506F4 /* SceneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E301BB6069000D506F4 /* SceneTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		5F8F6E3C1BB6069000D506F4 /* SceneRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E321BB6069000D506F4 /* SceneRenderViewController.m */; settings = {ASSET_TAGS = (); }; };
-		5F8F6E3F1BB6069000D506F4 /* SceneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E391BB6069000D506F4 /* SceneFactory.m */; settings = {ASSET_TAGS = (); }; };
-		5F9B27EC1BBB50DE00499296 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B27EB1BBB50DE00499296 /* README.md */; settings = {ASSET_TAGS = (); }; };
+		5F005DE71BB0AADC0048E2BE /* checked1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F005DE41BB0AADC0048E2BE /* checked1.jpg */; };
+		5F005DE81BB0AADC0048E2BE /* checked2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F005DE51BB0AADC0048E2BE /* checked2.jpg */; };
+		5F005DE91BB0AADC0048E2BE /* floor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F005DE61BB0AADC0048E2BE /* floor.jpg */; };
+		5F005DEB1BB0B0520048E2BE /* pool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F005DEA1BB0B0520048E2BE /* pool.jpg */; };
+		5F33507B1BB20CFE003569B8 /* marble1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F3350781BB20CFE003569B8 /* marble1.jpg */; };
+		5F33507C1BB20CFE003569B8 /* marble3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F3350791BB20CFE003569B8 /* marble3.jpg */; };
+		5F33507D1BB20CFE003569B8 /* marble2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F33507A1BB20CFE003569B8 /* marble2.jpg */; };
+		5F669ABB1BB60A98003139EC /* SceneBalls.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F669AB81BB60A98003139EC /* SceneBalls.m */; };
+		5F669ABC1BB60A98003139EC /* SceneCollada.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F669ABA1BB60A98003139EC /* SceneCollada.m */; };
+		5F8F6E3A1BB6069000D506F4 /* SceneSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E2E1BB6069000D506F4 /* SceneSplitViewController.m */; };
+		5F8F6E3B1BB6069000D506F4 /* SceneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E301BB6069000D506F4 /* SceneTableViewController.m */; };
+		5F8F6E3C1BB6069000D506F4 /* SceneRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E321BB6069000D506F4 /* SceneRenderViewController.m */; };
+		5F8F6E3F1BB6069000D506F4 /* SceneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E391BB6069000D506F4 /* SceneFactory.m */; };
+		5F9B27EC1BBB50DE00499296 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B27EB1BBB50DE00499296 /* README.md */; };
 		5FC07B0D1BACD601004CC435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC07B0C1BACD601004CC435 /* main.m */; };
 		5FC07B101BACD601004CC435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC07B0F1BACD601004CC435 /* AppDelegate.m */; };
 		5FC07B121BACD601004CC435 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC07B111BACD601004CC435 /* art.scnassets */; };
 		5FC07B181BACD601004CC435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC07B161BACD601004CC435 /* Main.storyboard */; };
 		5FC07B1A1BACD601004CC435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC07B191BACD601004CC435 /* Assets.xcassets */; };
 		5FC07B1D1BACD601004CC435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC07B1B1BACD601004CC435 /* LaunchScreen.storyboard */; };
-		5FCD223D1BB6D74A00ADF253 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD22371BB6D74A00ADF253 /* back.png */; settings = {ASSET_TAGS = (); }; };
-		5FCD223E1BB6D74A00ADF253 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD22381BB6D74A00ADF253 /* down.png */; settings = {ASSET_TAGS = (); }; };
-		5FCD223F1BB6D74A00ADF253 /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD22391BB6D74A00ADF253 /* front.png */; settings = {ASSET_TAGS = (); }; };
-		5FCD22401BB6D74A00ADF253 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD223A1BB6D74A00ADF253 /* left.png */; settings = {ASSET_TAGS = (); }; };
-		5FCD22411BB6D74A00ADF253 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD223B1BB6D74A00ADF253 /* right.png */; settings = {ASSET_TAGS = (); }; };
-		5FCD22421BB6D74A00ADF253 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD223C1BB6D74A00ADF253 /* up.png */; settings = {ASSET_TAGS = (); }; };
+		5FCD223D1BB6D74A00ADF253 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD22371BB6D74A00ADF253 /* back.png */; };
+		5FCD223E1BB6D74A00ADF253 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD22381BB6D74A00ADF253 /* down.png */; };
+		5FCD223F1BB6D74A00ADF253 /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD22391BB6D74A00ADF253 /* front.png */; };
+		5FCD22401BB6D74A00ADF253 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD223A1BB6D74A00ADF253 /* left.png */; };
+		5FCD22411BB6D74A00ADF253 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD223B1BB6D74A00ADF253 /* right.png */; };
+		5FCD22421BB6D74A00ADF253 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD223C1BB6D74A00ADF253 /* up.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +57,7 @@
 		5F8F6E321BB6069000D506F4 /* SceneRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneRenderViewController.m; sourceTree = "<group>"; };
 		5F8F6E381BB6069000D506F4 /* SceneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneFactory.h; sourceTree = "<group>"; };
 		5F8F6E391BB6069000D506F4 /* SceneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneFactory.m; sourceTree = "<group>"; };
-		5F9B27EB1BBB50DE00499296 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F9B27EB1BBB50DE00499296 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ExploringSceneKit/README.md; sourceTree = "<group>"; };
 		5FC07B081BACD601004CC435 /* ExploringSceneKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploringSceneKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC07B0C1BACD601004CC435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FC07B0E1BACD601004CC435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -140,6 +140,7 @@
 		5FC07AFF1BACD601004CC435 = {
 			isa = PBXGroup;
 			children = (
+				5F9B27EB1BBB50DE00499296 /* README.md */,
 				5FC07B0A1BACD601004CC435 /* ExploringSceneKit */,
 				5FC07B091BACD601004CC435 /* Products */,
 			);
@@ -156,7 +157,6 @@
 		5FC07B0A1BACD601004CC435 /* ExploringSceneKit */ = {
 			isa = PBXGroup;
 			children = (
-				5F9B27EB1BBB50DE00499296 /* README.md */,
 				5F8F6E2B1BB6069000D506F4 /* Controller */,
 				5F8F6E331BB6069000D506F4 /* Model */,
 				5FC07B0E1BACD601004CC435 /* AppDelegate.h */,
@@ -219,7 +219,7 @@
 		5FC07B001BACD601004CC435 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Fabrizio Duroni";
 				TargetAttributes = {
 					5FC07B071BACD601004CC435 = {
@@ -325,8 +325,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -369,8 +371,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
