@@ -6,13 +6,12 @@
 //  Copyright © 2015 Fabrizio Duroni. All rights reserved.
 //
 
-#import "SceneSelection.h"
+#import "Scene.h"
+#import "SceneFactory.h"
 
 @import UIKit;
+@import SceneKit;
 
 @interface SceneTableViewController : UITableViewController
-
-/// Delegate of the SceneTableViewController.
-@property (nonatomic, strong) id<SceneSelection> delegate;
 
 @end

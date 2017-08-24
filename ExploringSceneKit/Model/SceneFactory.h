@@ -13,6 +13,6 @@
 
 @interface SceneFactory : NSObject
 
-- (SCNScene<Scene> *)makeScene:(int)sceneId;
+- (SCNScene<Scene> *)makeScene:(NSInteger)sceneId;
 
 @end

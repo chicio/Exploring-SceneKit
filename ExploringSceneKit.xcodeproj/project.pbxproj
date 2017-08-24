@@ -7,6 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		459C337E1F4B7A8E0022CFF1 /* ScenePhysicallyBased.m in Sources */ = {isa = PBXBuildFile; fileRef = 459C337D1F4B7A8E0022CFF1 /* ScenePhysicallyBased.m */; };
+		459C33861F4B7CDC0022CFF1 /* Bunny.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33801F4B7CDC0022CFF1 /* Bunny.obj */; };
+		459C33871F4B7CDC0022CFF1 /* Dragon.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33811F4B7CDC0022CFF1 /* Dragon.obj */; };
+		459C33881F4B7CDC0022CFF1 /* Floor.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33821F4B7CDC0022CFF1 /* Floor.obj */; };
+		459C33891F4B7CDC0022CFF1 /* HappyBuddha.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33831F4B7CDC0022CFF1 /* HappyBuddha.obj */; };
+		459C338A1F4B7CDC0022CFF1 /* Lucy.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33841F4B7CDC0022CFF1 /* Lucy.obj */; };
+		459C338B1F4B7CDC0022CFF1 /* ThaiStatue.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33851F4B7CDC0022CFF1 /* ThaiStatue.obj */; };
+		45FA4A991F4CC03700EBBC56 /* backPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A921F4CC03700EBBC56 /* backPBR.png */; };
+		45FA4A9A1F4CC03700EBBC56 /* downPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A931F4CC03700EBBC56 /* downPBR.png */; };
+		45FA4A9B1F4CC03700EBBC56 /* frontPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A941F4CC03700EBBC56 /* frontPBR.png */; };
+		45FA4A9C1F4CC03700EBBC56 /* leftPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A951F4CC03700EBBC56 /* leftPBR.png */; };
+		45FA4A9E1F4CC03700EBBC56 /* rightPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A971F4CC03700EBBC56 /* rightPBR.png */; };
+		45FA4A9F1F4CC03700EBBC56 /* upPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A981F4CC03700EBBC56 /* upPBR.png */; };
+		45FA4AA71F4CDCE400EBBC56 /* rustediron-diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AA41F4CDCE400EBBC56 /* rustediron-diffuse.png */; };
+		45FA4AA91F4CDCE400EBBC56 /* rustediron-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AA61F4CDCE400EBBC56 /* rustediron-normal.png */; };
+		45FA4AAB1F4CDD3F00EBBC56 /* rustediron-metalness.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AAA1F4CDD3F00EBBC56 /* rustediron-metalness.png */; };
+		45FA4AAD1F4CE1DD00EBBC56 /* Dragon-uv.obj in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AAC1F4CE1DD00EBBC56 /* Dragon-uv.obj */; };
+		45FA4AAF1F4CE64100EBBC56 /* Floor-uv.obj in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AAE1F4CE64100EBBC56 /* Floor-uv.obj */; };
+		45FA4AB41F4CE91C00EBBC56 /* floor-ambient-occlusion.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AB01F4CE91C00EBBC56 /* floor-ambient-occlusion.png */; };
+		45FA4AB51F4CE91C00EBBC56 /* floor-diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AB11F4CE91C00EBBC56 /* floor-diffuse.png */; };
+		45FA4AB61F4CE91C00EBBC56 /* floor-metalness.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AB21F4CE91C00EBBC56 /* floor-metalness.png */; };
+		45FA4AB71F4CE91C00EBBC56 /* floor-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AB31F4CE91C00EBBC56 /* floor-normal.png */; };
+		45FA4ABB1F4CF88F00EBBC56 /* copper-diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AB81F4CF88F00EBBC56 /* copper-diffuse.png */; };
+		45FA4ABC1F4CF88F00EBBC56 /* copper-metalness.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AB91F4CF88F00EBBC56 /* copper-metalness.png */; };
+		45FA4ABD1F4CF88F00EBBC56 /* copper-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4ABA1F4CF88F00EBBC56 /* copper-normal.png */; };
+		45FA4ABF1F4CF9CF00EBBC56 /* Lucy-uv.obj in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4ABE1F4CF9CF00EBBC56 /* Lucy-uv.obj */; };
+		45FA4AC41F4CFB1100EBBC56 /* cement-ambient-occlusion.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AC01F4CFB1100EBBC56 /* cement-ambient-occlusion.png */; };
+		45FA4AC51F4CFB1100EBBC56 /* cement-diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AC11F4CFB1100EBBC56 /* cement-diffuse.png */; };
+		45FA4AC61F4CFB1100EBBC56 /* cement-metalness.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AC21F4CFB1100EBBC56 /* cement-metalness.png */; };
+		45FA4AC71F4CFB1100EBBC56 /* cement-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AC31F4CFB1100EBBC56 /* cement-normal.png */; };
+		45FA4AC91F4CFC4700EBBC56 /* HappyBuddha-uv.obj in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4AC81F4CFC4700EBBC56 /* HappyBuddha-uv.obj */; };
 		5F005DE71BB0AADC0048E2BE /* checked1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F005DE41BB0AADC0048E2BE /* checked1.jpg */; };
 		5F005DE81BB0AADC0048E2BE /* checked2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F005DE51BB0AADC0048E2BE /* checked2.jpg */; };
 		5F005DE91BB0AADC0048E2BE /* floor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F005DE61BB0AADC0048E2BE /* floor.jpg */; };
@@ -16,7 +47,6 @@
 		5F33507D1BB20CFE003569B8 /* marble2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F33507A1BB20CFE003569B8 /* marble2.jpg */; };
 		5F669ABB1BB60A98003139EC /* SceneBalls.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F669AB81BB60A98003139EC /* SceneBalls.m */; };
 		5F669ABC1BB60A98003139EC /* SceneCollada.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F669ABA1BB60A98003139EC /* SceneCollada.m */; };
-		5F8F6E3A1BB6069000D506F4 /* SceneSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E2E1BB6069000D506F4 /* SceneSplitViewController.m */; };
 		5F8F6E3B1BB6069000D506F4 /* SceneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E301BB6069000D506F4 /* SceneTableViewController.m */; };
 		5F8F6E3C1BB6069000D506F4 /* SceneRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E321BB6069000D506F4 /* SceneRenderViewController.m */; };
 		5F8F6E3F1BB6069000D506F4 /* SceneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E391BB6069000D506F4 /* SceneFactory.m */; };
@@ -35,6 +65,38 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		459C337C1F4B7A8E0022CFF1 /* ScenePhysicallyBased.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenePhysicallyBased.h; sourceTree = "<group>"; };
+		459C337D1F4B7A8E0022CFF1 /* ScenePhysicallyBased.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenePhysicallyBased.m; sourceTree = "<group>"; };
+		459C33801F4B7CDC0022CFF1 /* Bunny.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bunny.obj; sourceTree = "<group>"; };
+		459C33811F4B7CDC0022CFF1 /* Dragon.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dragon.obj; sourceTree = "<group>"; };
+		459C33821F4B7CDC0022CFF1 /* Floor.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Floor.obj; sourceTree = "<group>"; };
+		459C33831F4B7CDC0022CFF1 /* HappyBuddha.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HappyBuddha.obj; sourceTree = "<group>"; };
+		459C33841F4B7CDC0022CFF1 /* Lucy.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lucy.obj; sourceTree = "<group>"; };
+		459C33851F4B7CDC0022CFF1 /* ThaiStatue.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThaiStatue.obj; sourceTree = "<group>"; };
+		45FA4A921F4CC03700EBBC56 /* backPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backPBR.png; sourceTree = "<group>"; };
+		45FA4A931F4CC03700EBBC56 /* downPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downPBR.png; sourceTree = "<group>"; };
+		45FA4A941F4CC03700EBBC56 /* frontPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontPBR.png; sourceTree = "<group>"; };
+		45FA4A951F4CC03700EBBC56 /* leftPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftPBR.png; sourceTree = "<group>"; };
+		45FA4A971F4CC03700EBBC56 /* rightPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightPBR.png; sourceTree = "<group>"; };
+		45FA4A981F4CC03700EBBC56 /* upPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upPBR.png; sourceTree = "<group>"; };
+		45FA4AA41F4CDCE400EBBC56 /* rustediron-diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-diffuse.png"; sourceTree = "<group>"; };
+		45FA4AA61F4CDCE400EBBC56 /* rustediron-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-normal.png"; sourceTree = "<group>"; };
+		45FA4AAA1F4CDD3F00EBBC56 /* rustediron-metalness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-metalness.png"; sourceTree = "<group>"; };
+		45FA4AAC1F4CE1DD00EBBC56 /* Dragon-uv.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dragon-uv.obj"; sourceTree = "<group>"; };
+		45FA4AAE1F4CE64100EBBC56 /* Floor-uv.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Floor-uv.obj"; sourceTree = "<group>"; };
+		45FA4AB01F4CE91C00EBBC56 /* floor-ambient-occlusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor-ambient-occlusion.png"; sourceTree = "<group>"; };
+		45FA4AB11F4CE91C00EBBC56 /* floor-diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor-diffuse.png"; sourceTree = "<group>"; };
+		45FA4AB21F4CE91C00EBBC56 /* floor-metalness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor-metalness.png"; sourceTree = "<group>"; };
+		45FA4AB31F4CE91C00EBBC56 /* floor-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor-normal.png"; sourceTree = "<group>"; };
+		45FA4AB81F4CF88F00EBBC56 /* copper-diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copper-diffuse.png"; sourceTree = "<group>"; };
+		45FA4AB91F4CF88F00EBBC56 /* copper-metalness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copper-metalness.png"; sourceTree = "<group>"; };
+		45FA4ABA1F4CF88F00EBBC56 /* copper-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copper-normal.png"; sourceTree = "<group>"; };
+		45FA4ABE1F4CF9CF00EBBC56 /* Lucy-uv.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Lucy-uv.obj"; sourceTree = "<group>"; };
+		45FA4AC01F4CFB1100EBBC56 /* cement-ambient-occlusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cement-ambient-occlusion.png"; sourceTree = "<group>"; };
+		45FA4AC11F4CFB1100EBBC56 /* cement-diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cement-diffuse.png"; sourceTree = "<group>"; };
+		45FA4AC21F4CFB1100EBBC56 /* cement-metalness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cement-metalness.png"; sourceTree = "<group>"; };
+		45FA4AC31F4CFB1100EBBC56 /* cement-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cement-normal.png"; sourceTree = "<group>"; };
+		45FA4AC81F4CFC4700EBBC56 /* HappyBuddha-uv.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "HappyBuddha-uv.obj"; sourceTree = "<group>"; };
 		5F005DE41BB0AADC0048E2BE /* checked1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checked1.jpg; sourceTree = "<group>"; };
 		5F005DE51BB0AADC0048E2BE /* checked2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checked2.jpg; sourceTree = "<group>"; };
 		5F005DE61BB0AADC0048E2BE /* floor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floor.jpg; sourceTree = "<group>"; };
@@ -47,9 +109,6 @@
 		5F669AB91BB60A98003139EC /* SceneCollada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneCollada.h; sourceTree = "<group>"; };
 		5F669ABA1BB60A98003139EC /* SceneCollada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneCollada.m; sourceTree = "<group>"; };
 		5F669ABD1BB60E17003139EC /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
-		5F8F6E2C1BB6069000D506F4 /* SceneSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneSelection.h; sourceTree = "<group>"; };
-		5F8F6E2D1BB6069000D506F4 /* SceneSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneSplitViewController.h; sourceTree = "<group>"; };
-		5F8F6E2E1BB6069000D506F4 /* SceneSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneSplitViewController.m; sourceTree = "<group>"; };
 		5F8F6E2F1BB6069000D506F4 /* SceneTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneTableViewController.h; sourceTree = "<group>"; };
 		5F8F6E301BB6069000D506F4 /* SceneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneTableViewController.m; sourceTree = "<group>"; };
 		5F8F6E311BB6069000D506F4 /* SceneRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneRenderViewController.h; sourceTree = "<group>"; };
@@ -84,9 +143,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		459C337F1F4B7CDC0022CFF1 /* Objs */ = {
+			isa = PBXGroup;
+			children = (
+				45FA4AAC1F4CE1DD00EBBC56 /* Dragon-uv.obj */,
+				459C33801F4B7CDC0022CFF1 /* Bunny.obj */,
+				459C33811F4B7CDC0022CFF1 /* Dragon.obj */,
+				459C33821F4B7CDC0022CFF1 /* Floor.obj */,
+				45FA4AAE1F4CE64100EBBC56 /* Floor-uv.obj */,
+				459C33831F4B7CDC0022CFF1 /* HappyBuddha.obj */,
+				45FA4AC81F4CFC4700EBBC56 /* HappyBuddha-uv.obj */,
+				459C33841F4B7CDC0022CFF1 /* Lucy.obj */,
+				45FA4ABE1F4CF9CF00EBBC56 /* Lucy-uv.obj */,
+				459C33851F4B7CDC0022CFF1 /* ThaiStatue.obj */,
+			);
+			path = Objs;
+			sourceTree = "<group>";
+		};
+		45FA4A911F4CC03700EBBC56 /* skyboxPhysicallyBased */ = {
+			isa = PBXGroup;
+			children = (
+				45FA4A921F4CC03700EBBC56 /* backPBR.png */,
+				45FA4A931F4CC03700EBBC56 /* downPBR.png */,
+				45FA4A941F4CC03700EBBC56 /* frontPBR.png */,
+				45FA4A951F4CC03700EBBC56 /* leftPBR.png */,
+				45FA4A971F4CC03700EBBC56 /* rightPBR.png */,
+				45FA4A981F4CC03700EBBC56 /* upPBR.png */,
+			);
+			path = skyboxPhysicallyBased;
+			sourceTree = "<group>";
+		};
 		5F005DE31BB0AADC0048E2BE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				45FA4A911F4CC03700EBBC56 /* skyboxPhysicallyBased */,
 				5FCD22361BB6D74A00ADF253 /* skybox */,
 				5F3350781BB20CFE003569B8 /* marble1.jpg */,
 				5F3350791BB20CFE003569B8 /* marble3.jpg */,
@@ -95,6 +185,20 @@
 				5F005DE41BB0AADC0048E2BE /* checked1.jpg */,
 				5F005DE51BB0AADC0048E2BE /* checked2.jpg */,
 				5F005DE61BB0AADC0048E2BE /* floor.jpg */,
+				45FA4AB01F4CE91C00EBBC56 /* floor-ambient-occlusion.png */,
+				45FA4AB11F4CE91C00EBBC56 /* floor-diffuse.png */,
+				45FA4AB21F4CE91C00EBBC56 /* floor-metalness.png */,
+				45FA4AB31F4CE91C00EBBC56 /* floor-normal.png */,
+				45FA4AA41F4CDCE400EBBC56 /* rustediron-diffuse.png */,
+				45FA4AAA1F4CDD3F00EBBC56 /* rustediron-metalness.png */,
+				45FA4AA61F4CDCE400EBBC56 /* rustediron-normal.png */,
+				45FA4AB81F4CF88F00EBBC56 /* copper-diffuse.png */,
+				45FA4AB91F4CF88F00EBBC56 /* copper-metalness.png */,
+				45FA4ABA1F4CF88F00EBBC56 /* copper-normal.png */,
+				45FA4AC01F4CFB1100EBBC56 /* cement-ambient-occlusion.png */,
+				45FA4AC11F4CFB1100EBBC56 /* cement-diffuse.png */,
+				45FA4AC21F4CFB1100EBBC56 /* cement-metalness.png */,
+				45FA4AC31F4CFB1100EBBC56 /* cement-normal.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -107,6 +211,8 @@
 				5F669AB81BB60A98003139EC /* SceneBalls.m */,
 				5F669AB91BB60A98003139EC /* SceneCollada.h */,
 				5F669ABA1BB60A98003139EC /* SceneCollada.m */,
+				459C337C1F4B7A8E0022CFF1 /* ScenePhysicallyBased.h */,
+				459C337D1F4B7A8E0022CFF1 /* ScenePhysicallyBased.m */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -114,9 +220,6 @@
 		5F8F6E2B1BB6069000D506F4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5F8F6E2C1BB6069000D506F4 /* SceneSelection.h */,
-				5F8F6E2D1BB6069000D506F4 /* SceneSplitViewController.h */,
-				5F8F6E2E1BB6069000D506F4 /* SceneSplitViewController.m */,
 				5F8F6E2F1BB6069000D506F4 /* SceneTableViewController.h */,
 				5F8F6E301BB6069000D506F4 /* SceneTableViewController.m */,
 				5F8F6E311BB6069000D506F4 /* SceneRenderViewController.h */,
@@ -159,6 +262,7 @@
 				5FC07B0E1BACD601004CC435 /* AppDelegate.h */,
 				5FC07B0F1BACD601004CC435 /* AppDelegate.m */,
 				5F005DE31BB0AADC0048E2BE /* images */,
+				459C337F1F4B7CDC0022CFF1 /* Objs */,
 				5FC07B191BACD601004CC435 /* Assets.xcassets */,
 				5FC07B111BACD601004CC435 /* art.scnassets */,
 				5FC07B161BACD601004CC435 /* Main.storyboard */,
@@ -248,23 +352,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FA4A9F1F4CC03700EBBC56 /* upPBR.png in Resources */,
+				45FA4AB61F4CE91C00EBBC56 /* floor-metalness.png in Resources */,
+				45FA4AB51F4CE91C00EBBC56 /* floor-diffuse.png in Resources */,
+				459C33881F4B7CDC0022CFF1 /* Floor.obj in Resources */,
+				459C33861F4B7CDC0022CFF1 /* Bunny.obj in Resources */,
+				45FA4A9C1F4CC03700EBBC56 /* leftPBR.png in Resources */,
+				45FA4AB41F4CE91C00EBBC56 /* floor-ambient-occlusion.png in Resources */,
+				45FA4AC61F4CFB1100EBBC56 /* cement-metalness.png in Resources */,
 				5F33507C1BB20CFE003569B8 /* marble3.jpg in Resources */,
 				5F005DE71BB0AADC0048E2BE /* checked1.jpg in Resources */,
+				45FA4AC41F4CFB1100EBBC56 /* cement-ambient-occlusion.png in Resources */,
+				45FA4ABC1F4CF88F00EBBC56 /* copper-metalness.png in Resources */,
+				459C33891F4B7CDC0022CFF1 /* HappyBuddha.obj in Resources */,
+				45FA4AC51F4CFB1100EBBC56 /* cement-diffuse.png in Resources */,
 				5F005DEB1BB0B0520048E2BE /* pool.jpg in Resources */,
+				45FA4ABD1F4CF88F00EBBC56 /* copper-normal.png in Resources */,
 				5FCD223E1BB6D74A00ADF253 /* down.png in Resources */,
+				45FA4AA71F4CDCE400EBBC56 /* rustediron-diffuse.png in Resources */,
 				5F005DE91BB0AADC0048E2BE /* floor.jpg in Resources */,
 				5FC07B121BACD601004CC435 /* art.scnassets in Resources */,
+				45FA4A9B1F4CC03700EBBC56 /* frontPBR.png in Resources */,
+				459C338B1F4B7CDC0022CFF1 /* ThaiStatue.obj in Resources */,
 				5FC07B1D1BACD601004CC435 /* LaunchScreen.storyboard in Resources */,
+				45FA4A9A1F4CC03700EBBC56 /* downPBR.png in Resources */,
+				45FA4AC91F4CFC4700EBBC56 /* HappyBuddha-uv.obj in Resources */,
+				45FA4ABF1F4CF9CF00EBBC56 /* Lucy-uv.obj in Resources */,
 				5F33507B1BB20CFE003569B8 /* marble1.jpg in Resources */,
+				459C33871F4B7CDC0022CFF1 /* Dragon.obj in Resources */,
 				5F33507D1BB20CFE003569B8 /* marble2.jpg in Resources */,
 				5FCD22421BB6D74A00ADF253 /* up.png in Resources */,
 				5FCD223F1BB6D74A00ADF253 /* front.png in Resources */,
+				45FA4AAF1F4CE64100EBBC56 /* Floor-uv.obj in Resources */,
 				5FCD22411BB6D74A00ADF253 /* right.png in Resources */,
+				459C338A1F4B7CDC0022CFF1 /* Lucy.obj in Resources */,
+				45FA4AAB1F4CDD3F00EBBC56 /* rustediron-metalness.png in Resources */,
+				45FA4ABB1F4CF88F00EBBC56 /* copper-diffuse.png in Resources */,
 				5FCD223D1BB6D74A00ADF253 /* back.png in Resources */,
+				45FA4A9E1F4CC03700EBBC56 /* rightPBR.png in Resources */,
 				5FCD22401BB6D74A00ADF253 /* left.png in Resources */,
+				45FA4AC71F4CFB1100EBBC56 /* cement-normal.png in Resources */,
+				45FA4A991F4CC03700EBBC56 /* backPBR.png in Resources */,
 				5FC07B1A1BACD601004CC435 /* Assets.xcassets in Resources */,
+				45FA4AB71F4CE91C00EBBC56 /* floor-normal.png in Resources */,
 				5F005DE81BB0AADC0048E2BE /* checked2.jpg in Resources */,
+				45FA4AAD1F4CE1DD00EBBC56 /* Dragon-uv.obj in Resources */,
 				5FC07B181BACD601004CC435 /* Main.storyboard in Resources */,
+				45FA4AA91F4CDCE400EBBC56 /* rustediron-normal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +410,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F8F6E3C1BB6069000D506F4 /* SceneRenderViewController.m in Sources */,
+				459C337E1F4B7A8E0022CFF1 /* ScenePhysicallyBased.m in Sources */,
 				5FC07B101BACD601004CC435 /* AppDelegate.m in Sources */,
 				5F669ABB1BB60A98003139EC /* SceneBalls.m in Sources */,
 				5F669ABC1BB60A98003139EC /* SceneCollada.m in Sources */,
-				5F8F6E3A1BB6069000D506F4 /* SceneSplitViewController.m in Sources */,
 				5F8F6E3B1BB6069000D506F4 /* SceneTableViewController.m in Sources */,
 				5FC07B0D1BACD601004CC435 /* main.m in Sources */,
 				5F8F6E3F1BB6069000D506F4 /* SceneFactory.m in Sources */,
@@ -346,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,7 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -399,10 +533,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y682K92RZU;
 				INFOPLIST_FILE = ExploringSceneKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.ChicioSceneKit;
+				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.ExploringSceneKit;
 				PRODUCT_NAME = ExploringSceneKit;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -411,10 +548,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y682K92RZU;
 				INFOPLIST_FILE = ExploringSceneKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.ChicioSceneKit;
+				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.ExploringSceneKit;
 				PRODUCT_NAME = ExploringSceneKit;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
