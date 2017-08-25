@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		459C337E1F4B7A8E0022CFF1 /* ScenePhysicallyBased.m in Sources */ = {isa = PBXBuildFile; fileRef = 459C337D1F4B7A8E0022CFF1 /* ScenePhysicallyBased.m */; };
-		459C33861F4B7CDC0022CFF1 /* Bunny.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33801F4B7CDC0022CFF1 /* Bunny.obj */; };
-		459C33871F4B7CDC0022CFF1 /* Dragon.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33811F4B7CDC0022CFF1 /* Dragon.obj */; };
-		459C33881F4B7CDC0022CFF1 /* Floor.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33821F4B7CDC0022CFF1 /* Floor.obj */; };
-		459C33891F4B7CDC0022CFF1 /* HappyBuddha.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33831F4B7CDC0022CFF1 /* HappyBuddha.obj */; };
-		459C338A1F4B7CDC0022CFF1 /* Lucy.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33841F4B7CDC0022CFF1 /* Lucy.obj */; };
-		459C338B1F4B7CDC0022CFF1 /* ThaiStatue.obj in Resources */ = {isa = PBXBuildFile; fileRef = 459C33851F4B7CDC0022CFF1 /* ThaiStatue.obj */; };
+		45BCCBED1F50D60B00497E86 /* SceneBalls.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBE51F50D60B00497E86 /* SceneBalls.m */; };
+		45BCCBEE1F50D60B00497E86 /* SceneCollada.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBE81F50D60B00497E86 /* SceneCollada.m */; };
+		45BCCBEF1F50D60B00497E86 /* PhysicallyBasedLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBEA1F50D60B00497E86 /* PhysicallyBasedLight.swift */; };
+		45BCCBF01F50D60B00497E86 /* PhysicallyBasedLightFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBEB1F50D60B00497E86 /* PhysicallyBasedLightFeatures.swift */; };
+		45BCCBF11F50D60B00497E86 /* PhysicallyBasedScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBEC1F50D60B00497E86 /* PhysicallyBasedScene.swift */; };
+		45BCCBF31F50D69400497E86 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBF21F50D69400497E86 /* Camera.swift */; };
+		45BCCBF51F50D6BB00497E86 /* PhysicallyBasedMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBF41F50D6BB00497E86 /* PhysicallyBasedMaterial.swift */; };
+		45BCCBF71F50D6DC00497E86 /* MeshLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBF61F50D6DC00497E86 /* MeshLoader.swift */; };
+		45BCCBF91F50D70000497E86 /* PhysicallyBasedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBF81F50D70000497E86 /* PhysicallyBasedObject.swift */; };
+		45BCCBFB1F50D9AD00497E86 /* PhysicallyBasedLightingEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBFA1F50D9AD00497E86 /* PhysicallyBasedLightingEnviroment.swift */; };
 		45FA4A991F4CC03700EBBC56 /* backPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A921F4CC03700EBBC56 /* backPBR.png */; };
 		45FA4A9A1F4CC03700EBBC56 /* downPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A931F4CC03700EBBC56 /* downPBR.png */; };
 		45FA4A9B1F4CC03700EBBC56 /* frontPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A941F4CC03700EBBC56 /* frontPBR.png */; };
@@ -45,8 +48,6 @@
 		5F33507B1BB20CFE003569B8 /* marble1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F3350781BB20CFE003569B8 /* marble1.jpg */; };
 		5F33507C1BB20CFE003569B8 /* marble3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F3350791BB20CFE003569B8 /* marble3.jpg */; };
 		5F33507D1BB20CFE003569B8 /* marble2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F33507A1BB20CFE003569B8 /* marble2.jpg */; };
-		5F669ABB1BB60A98003139EC /* SceneBalls.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F669AB81BB60A98003139EC /* SceneBalls.m */; };
-		5F669ABC1BB60A98003139EC /* SceneCollada.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F669ABA1BB60A98003139EC /* SceneCollada.m */; };
 		5F8F6E3B1BB6069000D506F4 /* SceneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E301BB6069000D506F4 /* SceneTableViewController.m */; };
 		5F8F6E3C1BB6069000D506F4 /* SceneRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E321BB6069000D506F4 /* SceneRenderViewController.m */; };
 		5F8F6E3F1BB6069000D506F4 /* SceneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F6E391BB6069000D506F4 /* SceneFactory.m */; };
@@ -65,14 +66,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		459C337C1F4B7A8E0022CFF1 /* ScenePhysicallyBased.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenePhysicallyBased.h; sourceTree = "<group>"; };
-		459C337D1F4B7A8E0022CFF1 /* ScenePhysicallyBased.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenePhysicallyBased.m; sourceTree = "<group>"; };
-		459C33801F4B7CDC0022CFF1 /* Bunny.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bunny.obj; sourceTree = "<group>"; };
-		459C33811F4B7CDC0022CFF1 /* Dragon.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dragon.obj; sourceTree = "<group>"; };
-		459C33821F4B7CDC0022CFF1 /* Floor.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Floor.obj; sourceTree = "<group>"; };
-		459C33831F4B7CDC0022CFF1 /* HappyBuddha.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HappyBuddha.obj; sourceTree = "<group>"; };
-		459C33841F4B7CDC0022CFF1 /* Lucy.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lucy.obj; sourceTree = "<group>"; };
-		459C33851F4B7CDC0022CFF1 /* ThaiStatue.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThaiStatue.obj; sourceTree = "<group>"; };
+		45BCCBE41F50D60B00497E86 /* SceneBalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneBalls.h; sourceTree = "<group>"; };
+		45BCCBE51F50D60B00497E86 /* SceneBalls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneBalls.m; sourceTree = "<group>"; };
+		45BCCBE71F50D60B00497E86 /* SceneCollada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneCollada.h; sourceTree = "<group>"; };
+		45BCCBE81F50D60B00497E86 /* SceneCollada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneCollada.m; sourceTree = "<group>"; };
+		45BCCBEA1F50D60B00497E86 /* PhysicallyBasedLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicallyBasedLight.swift; sourceTree = "<group>"; };
+		45BCCBEB1F50D60B00497E86 /* PhysicallyBasedLightFeatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicallyBasedLightFeatures.swift; sourceTree = "<group>"; };
+		45BCCBEC1F50D60B00497E86 /* PhysicallyBasedScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicallyBasedScene.swift; sourceTree = "<group>"; };
+		45BCCBF21F50D69400497E86 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		45BCCBF41F50D6BB00497E86 /* PhysicallyBasedMaterial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicallyBasedMaterial.swift; sourceTree = "<group>"; };
+		45BCCBF61F50D6DC00497E86 /* MeshLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeshLoader.swift; sourceTree = "<group>"; };
+		45BCCBF81F50D70000497E86 /* PhysicallyBasedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicallyBasedObject.swift; sourceTree = "<group>"; };
+		45BCCBFA1F50D9AD00497E86 /* PhysicallyBasedLightingEnviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicallyBasedLightingEnviroment.swift; sourceTree = "<group>"; };
 		45FA4A921F4CC03700EBBC56 /* backPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backPBR.png; sourceTree = "<group>"; };
 		45FA4A931F4CC03700EBBC56 /* downPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downPBR.png; sourceTree = "<group>"; };
 		45FA4A941F4CC03700EBBC56 /* frontPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontPBR.png; sourceTree = "<group>"; };
@@ -104,10 +109,6 @@
 		5F3350781BB20CFE003569B8 /* marble1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble1.jpg; sourceTree = "<group>"; };
 		5F3350791BB20CFE003569B8 /* marble3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble3.jpg; sourceTree = "<group>"; };
 		5F33507A1BB20CFE003569B8 /* marble2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble2.jpg; sourceTree = "<group>"; };
-		5F669AB71BB60A98003139EC /* SceneBalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneBalls.h; sourceTree = "<group>"; };
-		5F669AB81BB60A98003139EC /* SceneBalls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneBalls.m; sourceTree = "<group>"; };
-		5F669AB91BB60A98003139EC /* SceneCollada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneCollada.h; sourceTree = "<group>"; };
-		5F669ABA1BB60A98003139EC /* SceneCollada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneCollada.m; sourceTree = "<group>"; };
 		5F669ABD1BB60E17003139EC /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
 		5F8F6E2F1BB6069000D506F4 /* SceneTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneTableViewController.h; sourceTree = "<group>"; };
 		5F8F6E301BB6069000D506F4 /* SceneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneTableViewController.m; sourceTree = "<group>"; };
@@ -147,17 +148,44 @@
 			isa = PBXGroup;
 			children = (
 				45FA4AAC1F4CE1DD00EBBC56 /* Dragon-uv.obj */,
-				459C33801F4B7CDC0022CFF1 /* Bunny.obj */,
-				459C33811F4B7CDC0022CFF1 /* Dragon.obj */,
-				459C33821F4B7CDC0022CFF1 /* Floor.obj */,
 				45FA4AAE1F4CE64100EBBC56 /* Floor-uv.obj */,
-				459C33831F4B7CDC0022CFF1 /* HappyBuddha.obj */,
 				45FA4AC81F4CFC4700EBBC56 /* HappyBuddha-uv.obj */,
-				459C33841F4B7CDC0022CFF1 /* Lucy.obj */,
 				45FA4ABE1F4CF9CF00EBBC56 /* Lucy-uv.obj */,
-				459C33851F4B7CDC0022CFF1 /* ThaiStatue.obj */,
 			);
 			path = Objs;
+			sourceTree = "<group>";
+		};
+		45BCCBE31F50D60B00497E86 /* Balls */ = {
+			isa = PBXGroup;
+			children = (
+				45BCCBE41F50D60B00497E86 /* SceneBalls.h */,
+				45BCCBE51F50D60B00497E86 /* SceneBalls.m */,
+			);
+			path = Balls;
+			sourceTree = "<group>";
+		};
+		45BCCBE61F50D60B00497E86 /* Collada */ = {
+			isa = PBXGroup;
+			children = (
+				45BCCBE71F50D60B00497E86 /* SceneCollada.h */,
+				45BCCBE81F50D60B00497E86 /* SceneCollada.m */,
+			);
+			path = Collada;
+			sourceTree = "<group>";
+		};
+		45BCCBE91F50D60B00497E86 /* PhysicallyBasedRendering */ = {
+			isa = PBXGroup;
+			children = (
+				45BCCBEA1F50D60B00497E86 /* PhysicallyBasedLight.swift */,
+				45BCCBFA1F50D9AD00497E86 /* PhysicallyBasedLightingEnviroment.swift */,
+				45BCCBEB1F50D60B00497E86 /* PhysicallyBasedLightFeatures.swift */,
+				45BCCBF41F50D6BB00497E86 /* PhysicallyBasedMaterial.swift */,
+				45BCCBF81F50D70000497E86 /* PhysicallyBasedObject.swift */,
+				45BCCBEC1F50D60B00497E86 /* PhysicallyBasedScene.swift */,
+				45BCCBF21F50D69400497E86 /* Camera.swift */,
+				45BCCBF61F50D6DC00497E86 /* MeshLoader.swift */,
+			);
+			path = PhysicallyBasedRendering;
 			sourceTree = "<group>";
 		};
 		45FA4A911F4CC03700EBBC56 /* skyboxPhysicallyBased */ = {
@@ -206,13 +234,10 @@
 		5F669AB61BB60A98003139EC /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				45BCCBE31F50D60B00497E86 /* Balls */,
+				45BCCBE61F50D60B00497E86 /* Collada */,
+				45BCCBE91F50D60B00497E86 /* PhysicallyBasedRendering */,
 				5F669ABD1BB60E17003139EC /* Scene.h */,
-				5F669AB71BB60A98003139EC /* SceneBalls.h */,
-				5F669AB81BB60A98003139EC /* SceneBalls.m */,
-				5F669AB91BB60A98003139EC /* SceneCollada.h */,
-				5F669ABA1BB60A98003139EC /* SceneCollada.m */,
-				459C337C1F4B7A8E0022CFF1 /* ScenePhysicallyBased.h */,
-				459C337D1F4B7A8E0022CFF1 /* ScenePhysicallyBased.m */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -326,6 +351,7 @@
 					5FC07B071BACD601004CC435 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = Y682K92RZU;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -355,8 +381,6 @@
 				45FA4A9F1F4CC03700EBBC56 /* upPBR.png in Resources */,
 				45FA4AB61F4CE91C00EBBC56 /* floor-metalness.png in Resources */,
 				45FA4AB51F4CE91C00EBBC56 /* floor-diffuse.png in Resources */,
-				459C33881F4B7CDC0022CFF1 /* Floor.obj in Resources */,
-				459C33861F4B7CDC0022CFF1 /* Bunny.obj in Resources */,
 				45FA4A9C1F4CC03700EBBC56 /* leftPBR.png in Resources */,
 				45FA4AB41F4CE91C00EBBC56 /* floor-ambient-occlusion.png in Resources */,
 				45FA4AC61F4CFB1100EBBC56 /* cement-metalness.png in Resources */,
@@ -364,7 +388,6 @@
 				5F005DE71BB0AADC0048E2BE /* checked1.jpg in Resources */,
 				45FA4AC41F4CFB1100EBBC56 /* cement-ambient-occlusion.png in Resources */,
 				45FA4ABC1F4CF88F00EBBC56 /* copper-metalness.png in Resources */,
-				459C33891F4B7CDC0022CFF1 /* HappyBuddha.obj in Resources */,
 				45FA4AC51F4CFB1100EBBC56 /* cement-diffuse.png in Resources */,
 				5F005DEB1BB0B0520048E2BE /* pool.jpg in Resources */,
 				45FA4ABD1F4CF88F00EBBC56 /* copper-normal.png in Resources */,
@@ -373,19 +396,16 @@
 				5F005DE91BB0AADC0048E2BE /* floor.jpg in Resources */,
 				5FC07B121BACD601004CC435 /* art.scnassets in Resources */,
 				45FA4A9B1F4CC03700EBBC56 /* frontPBR.png in Resources */,
-				459C338B1F4B7CDC0022CFF1 /* ThaiStatue.obj in Resources */,
 				5FC07B1D1BACD601004CC435 /* LaunchScreen.storyboard in Resources */,
 				45FA4A9A1F4CC03700EBBC56 /* downPBR.png in Resources */,
 				45FA4AC91F4CFC4700EBBC56 /* HappyBuddha-uv.obj in Resources */,
 				45FA4ABF1F4CF9CF00EBBC56 /* Lucy-uv.obj in Resources */,
 				5F33507B1BB20CFE003569B8 /* marble1.jpg in Resources */,
-				459C33871F4B7CDC0022CFF1 /* Dragon.obj in Resources */,
 				5F33507D1BB20CFE003569B8 /* marble2.jpg in Resources */,
 				5FCD22421BB6D74A00ADF253 /* up.png in Resources */,
 				5FCD223F1BB6D74A00ADF253 /* front.png in Resources */,
 				45FA4AAF1F4CE64100EBBC56 /* Floor-uv.obj in Resources */,
 				5FCD22411BB6D74A00ADF253 /* right.png in Resources */,
-				459C338A1F4B7CDC0022CFF1 /* Lucy.obj in Resources */,
 				45FA4AAB1F4CDD3F00EBBC56 /* rustediron-metalness.png in Resources */,
 				45FA4ABB1F4CF88F00EBBC56 /* copper-diffuse.png in Resources */,
 				5FCD223D1BB6D74A00ADF253 /* back.png in Resources */,
@@ -409,14 +429,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BCCBF31F50D69400497E86 /* Camera.swift in Sources */,
 				5F8F6E3C1BB6069000D506F4 /* SceneRenderViewController.m in Sources */,
-				459C337E1F4B7A8E0022CFF1 /* ScenePhysicallyBased.m in Sources */,
 				5FC07B101BACD601004CC435 /* AppDelegate.m in Sources */,
-				5F669ABB1BB60A98003139EC /* SceneBalls.m in Sources */,
-				5F669ABC1BB60A98003139EC /* SceneCollada.m in Sources */,
+				45BCCBEF1F50D60B00497E86 /* PhysicallyBasedLight.swift in Sources */,
 				5F8F6E3B1BB6069000D506F4 /* SceneTableViewController.m in Sources */,
 				5FC07B0D1BACD601004CC435 /* main.m in Sources */,
+				45BCCBEE1F50D60B00497E86 /* SceneCollada.m in Sources */,
 				5F8F6E3F1BB6069000D506F4 /* SceneFactory.m in Sources */,
+				45BCCBF51F50D6BB00497E86 /* PhysicallyBasedMaterial.swift in Sources */,
+				45BCCBFB1F50D9AD00497E86 /* PhysicallyBasedLightingEnviroment.swift in Sources */,
+				45BCCBF71F50D6DC00497E86 /* MeshLoader.swift in Sources */,
+				45BCCBED1F50D60B00497E86 /* SceneBalls.m in Sources */,
+				45BCCBF01F50D60B00497E86 /* PhysicallyBasedLightFeatures.swift in Sources */,
+				45BCCBF91F50D70000497E86 /* PhysicallyBasedObject.swift in Sources */,
+				45BCCBF11F50D60B00497E86 /* PhysicallyBasedScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = Y682K92RZU;
 				INFOPLIST_FILE = ExploringSceneKit/Info.plist;
@@ -539,6 +567,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.ExploringSceneKit;
 				PRODUCT_NAME = ExploringSceneKit;
+				SWIFT_OBJC_BRIDGING_HEADER = "ExploringSceneKit/Model/Scenes/ExploringSceneKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -547,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = Y682K92RZU;
 				INFOPLIST_FILE = ExploringSceneKit/Info.plist;
@@ -554,6 +586,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.ExploringSceneKit;
 				PRODUCT_NAME = ExploringSceneKit;
+				SWIFT_OBJC_BRIDGING_HEADER = "ExploringSceneKit/Model/Scenes/ExploringSceneKit-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
