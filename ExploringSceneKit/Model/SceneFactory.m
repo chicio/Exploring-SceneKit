@@ -9,7 +9,7 @@
 #import "Scene.h"
 #import "SceneBalls.h"
 #import "SceneCollada.h"
-#import "ScenePhysicallyBased.h"
+#import "ScenePhysicallyBased_old.h"
 #import "SceneFactory.h"
 
 @implementation SceneFactory
@@ -28,7 +28,7 @@
         case 1:
             return [[SceneCollada alloc]init];
         case 2:
-            return [[ScenePhysicallyBased alloc]init];
+            return [[ScenePhysicallyBased_old alloc]init];
         default:
             return [[SceneBalls alloc]init];
     }
