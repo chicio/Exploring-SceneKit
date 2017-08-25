@@ -2,7 +2,6 @@
 //  GameViewController.h
 //  ChicioSceneKit
 //
-
 //  Copyright (c) 2015 Fabrizio Duroni. All rights reserved.
 //
 

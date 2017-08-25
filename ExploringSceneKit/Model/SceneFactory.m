@@ -3,23 +3,16 @@
 //  ChicioSceneKit
 //
 //  Created by Fabrizio Duroni on 26/09/15.
-//  Copyright © 2015 Fabrizio Duroni. All rights reserved.
 //
 
 #import "Scene.h"
 #import "SceneBalls.h"
 #import "SceneCollada.h"
-#import "ScenePhysicallyBased_old.h"
+#import "ExploringSceneKit-Swift.h"
 #import "SceneFactory.h"
 
 @implementation SceneFactory
 
-/*!
- Method used to create a scene based on the name
- received as parameter.
- 
- @param sceneName the name of the scene to be created.
- */
 - (SCNScene<Scene> *)makeScene:(NSInteger)sceneId {
     
     switch (sceneId) {
@@ -28,7 +21,7 @@
         case 1:
             return [[SceneCollada alloc]init];
         case 2:
-            return [[ScenePhysicallyBased_old alloc]init];
+            return [[PhysicallyBasedScene alloc] init];
         default:
             return [[SceneBalls alloc]init];
     }

@@ -3,7 +3,6 @@
 //  ChicioSceneKit
 //
 //  Created by Fabrizio Duroni on 25/09/15.
-//  Copyright © 2015 Fabrizio Duroni. All rights reserved.
 //
 
 #import "SceneRenderViewController.h"
@@ -21,9 +20,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationController setNavigationBarHidden:false];
     self.sceneNames = @[@"Scene Balls", @"Scene Collada", @"Scene Physically based"];
     self.sceneFactory = [SceneFactory new];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden:false];
 }
 
 #pragma mark TableView Datasource

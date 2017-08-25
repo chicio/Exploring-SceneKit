@@ -22,13 +22,16 @@
     [super viewDidLoad];
     [self.navigationController setNavigationBarHidden:true];
     [self setupGestures];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
     [self renderScene];
 }
 
 #pragma mark Render
 
 - (void)renderScene {
-    self.sceneView.scene = self. scene;
+    self.sceneView.scene = self.scene;
     self.sceneView.showsStatistics = YES;
     self.sceneView.backgroundColor = [UIColor blackColor];
     self.sceneView.delegate = self;
@@ -37,17 +40,12 @@
 #pragma mark Gestures
 
 - (void)setupGestures {
-    //Setup getsure recognizer
     UITapGestureRecognizer *oneFingerGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(oneFingerGesture:)];
     oneFingerGesture.numberOfTapsRequired = 1;
     oneFingerGesture.numberOfTouchesRequired = 1;
-    
-    //Setup gesture double tap
     UITapGestureRecognizer *twoFingerGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(twoFingerGesture:)];
     twoFingerGesture.numberOfTapsRequired = 1;
     twoFingerGesture.numberOfTouchesRequired = 2;
-    
-    //Setup gesture tap with two finger
     self.sceneView.gestureRecognizers = @[oneFingerGesture, twoFingerGesture];
 }
 
