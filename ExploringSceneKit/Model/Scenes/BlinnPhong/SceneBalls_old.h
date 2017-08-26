@@ -10,6 +10,6 @@
 @import SceneKit;
 @import SpriteKit;
 
-@interface SceneBalls : SCNScene <Scene>
+@interface SceneBalls_old : SCNScene <Scene>
 
 @end

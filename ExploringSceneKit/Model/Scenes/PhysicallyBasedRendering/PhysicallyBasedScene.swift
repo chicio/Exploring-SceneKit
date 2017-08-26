@@ -42,8 +42,16 @@ import SceneKit.ModelIO
     }
     
     private func createPhysicallyBasedLight() -> PhysicallyBasedLight {
-        let features = PhysicallyBasedLightFeatures(lumen: 100, temperature: 4000)
-        let light = PhysicallyBasedLight(features: features)
+        let lightFeatures = LightFeatures(
+            position: SCNVector3Make(-2, 5, 4),
+            orientation: SCNVector3Make(GLKMathDegreesToRadians(-45), GLKMathDegreesToRadians(-25), 0),
+            color: UIColor.white
+        )
+        let physicallyBasedLightFeatures = PhysicallyBasedLightFeatures(lumen: 100, temperature: 4000)
+        let light = PhysicallyBasedLight(
+            lightFeatures: lightFeatures,
+            physicallyBasedLightFeatures: physicallyBasedLightFeatures
+        )
         return light
     }
     
@@ -66,7 +74,7 @@ import SceneKit.ModelIO
     
     private func addFloor() {
         rootNode.addChildNode(PhysicallyBasedObject(
-            mesh: MeshLoader.loadMeshWith(name: "Floor-uv", ofType: "obj"),
+            mesh: MeshLoader.loadMeshWith(name: "Floor", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "floor-diffuse.png",
                 roughness: 0.8,
@@ -81,7 +89,7 @@ import SceneKit.ModelIO
     
     private func addDragon() {
         rootNode.addChildNode(PhysicallyBasedObject(
-            mesh: MeshLoader.loadMeshWith(name: "Dragon-uv", ofType: "obj"),
+            mesh: MeshLoader.loadMeshWith(name: "Dragon", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "rustediron-diffuse.png",
                 roughness: 0.3,
@@ -95,7 +103,7 @@ import SceneKit.ModelIO
     
     private func addBuddha() {
         rootNode.addChildNode(PhysicallyBasedObject(
-            mesh: MeshLoader.loadMeshWith(name: "HappyBuddha-uv", ofType: "obj"),
+            mesh: MeshLoader.loadMeshWith(name: "HappyBuddha", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "cement-diffuse.png",
                 roughness: 0.8,
@@ -110,7 +118,7 @@ import SceneKit.ModelIO
     
     private func addLucy() {
         rootNode.addChildNode(PhysicallyBasedObject(
-            mesh: MeshLoader.loadMeshWith(name: "Lucy-uv", ofType: "obj"),
+            mesh: MeshLoader.loadMeshWith(name: "Lucy", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "copper-diffuse.png",
                 roughness: 0.0,

@@ -6,7 +6,7 @@
 //
 
 #import "Scene.h"
-#import "SceneBalls.h"
+#import "SceneBalls_old.h"
 #import "SceneCollada.h"
 #import "SceneRenderViewController.h"
 

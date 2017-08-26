@@ -7,14 +7,10 @@
 
 import SceneKit
 
-class PhysicallyBasedObject {
-    let node: SCNNode
+class PhysicallyBasedObject: Object {
     
     init(mesh: MDLObject, material: PhysicallyBasedMaterial, position: SCNVector3, rotation: SCNVector4) {
-        node = SCNNode(mdlObject: mesh)
-        node.castsShadow = true
-        node.position = position
-        node.rotation = rotation
+        super.init(mesh: mesh, position: position, rotation: rotation)
         node.geometry?.firstMaterial = material.material
     }
 }

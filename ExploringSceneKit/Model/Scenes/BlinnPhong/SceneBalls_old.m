@@ -6,15 +6,15 @@
 //  Copyright © 2015 Fabrizio Duroni. All rights reserved.
 //
 
-#import "SceneBalls.h"
+#import "SceneBalls_old.h"
 
-@interface SceneBalls()
+@interface SceneBalls_old()
 
 @property (nonatomic, strong) SCNNode *sphere;
 
 @end
 
-@implementation SceneBalls
+@implementation SceneBalls_old
 
 - (instancetype)init {
     self = [super init];
@@ -46,9 +46,7 @@
     SCNNode *lightNode = [SCNNode node];
     lightNode.light = [SCNLight light];
     lightNode.light.type = SCNLightTypeOmni;
-    lightNode.light.color = [SKColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
-    lightNode.light.zNear = 0;
-    lightNode.light.zFar = 1000;
+    lightNode.light.color = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
     lightNode.position = SCNVector3Make(0, 50, 10);
     [self.rootNode addChildNode:lightNode];
     
@@ -70,8 +68,6 @@
     SCNNode *floorNode = [SCNNode nodeWithGeometry:floor];
     floorNode.physicsBody = [SCNPhysicsBody kinematicBody];
     floorNode.position = SCNVector3Make(0, 0, 0);
-    floorNode.physicsField = [SCNPhysicsField linearGravityField];
-    floorNode.physicsField.strength = 12.0;
     [self.rootNode addChildNode:floorNode];
     
     //Setup box

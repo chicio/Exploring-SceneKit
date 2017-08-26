@@ -10,7 +10,7 @@ import SceneKit
 class Camera {
     let node: SCNNode
     
-    init(position: SCNVector3, rotation: SCNVector4, pivot: SCNMatrix4) {
+    init(position: SCNVector3, rotation: SCNVector4, pivot: SCNMatrix4? = nil) {
         node = SCNNode()
         createCameraOnNode()
         set(position: position, rotation: rotation, pivot: pivot)
@@ -21,9 +21,9 @@ class Camera {
         node.camera?.automaticallyAdjustsZRange = true
     }
     
-    private func set(position aPosition: SCNVector3, rotation aRotation: SCNVector4, pivot aPivot: SCNMatrix4) {
+    private func set(position aPosition: SCNVector3, rotation aRotation: SCNVector4, pivot aPivot: SCNMatrix4?) {
         node.position = aPosition
         node.rotation = aRotation
-        node.pivot = aPivot
+        node.pivot = aPivot ?? node.pivot
     }
 }
