@@ -48,11 +48,11 @@ import SceneKit.ModelIO
             color: UIColor.white
         )
         let physicallyBasedLightFeatures = PhysicallyBasedLightFeatures(lumen: 100, temperature: 4000)
-        let light = PhysicallyBasedLight(
+        let physicallyBasedLight = PhysicallyBasedLight(
             lightFeatures: lightFeatures,
             physicallyBasedLightFeatures: physicallyBasedLightFeatures
         )
-        return light
+        return physicallyBasedLight
     }
     
     private func createPhysicallyLightingEnviroment() {
@@ -73,7 +73,7 @@ import SceneKit.ModelIO
     }
     
     private func addFloor() {
-        rootNode.addChildNode(PhysicallyBasedObject(
+        let floor = PhysicallyBasedObject(
             mesh: MeshLoader.loadMeshWith(name: "Floor", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "floor-diffuse.png",
@@ -84,11 +84,12 @@ import SceneKit.ModelIO
             ),
             position: SCNVector3Make(0, 0, 0),
             rotation: SCNVector4Make(0, 0, 0, 0)
-            ).node)
+        )
+        rootNode.addChildNode(floor.node)
     }
     
     private func addDragon() {
-        rootNode.addChildNode(PhysicallyBasedObject(
+        let dragon = PhysicallyBasedObject(
             mesh: MeshLoader.loadMeshWith(name: "Dragon", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "rustediron-diffuse.png",
@@ -98,11 +99,12 @@ import SceneKit.ModelIO
             ),
             position: SCNVector3Make(-2, 0, 3),
             rotation: SCNVector4Make(0, 1, 0, GLKMathDegreesToRadians(20))
-        ).node)
+        )
+        rootNode.addChildNode(dragon.node)
     }
     
     private func addBuddha() {
-        rootNode.addChildNode(PhysicallyBasedObject(
+        let buddha = PhysicallyBasedObject(
             mesh: MeshLoader.loadMeshWith(name: "HappyBuddha", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "cement-diffuse.png",
@@ -113,11 +115,12 @@ import SceneKit.ModelIO
             ),
             position: SCNVector3Make(-0.5, 0, 0),
             rotation: SCNVector4Make(0, 0, 0, 0)
-        ).node)
+        )
+        rootNode.addChildNode(buddha.node)
     }
     
     private func addLucy() {
-        rootNode.addChildNode(PhysicallyBasedObject(
+        let lucy = PhysicallyBasedObject(
             mesh: MeshLoader.loadMeshWith(name: "Lucy", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "copper-diffuse.png",
@@ -127,7 +130,8 @@ import SceneKit.ModelIO
             ),
             position: SCNVector3Make(2, 0, 2),
             rotation: SCNVector4Make(0, 0, 0, 0)
-        ).node)
+        )
+        rootNode.addChildNode(lucy.node)
     }
     
     //MARK: Gestures

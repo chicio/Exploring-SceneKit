@@ -13,6 +13,7 @@
 		450236C21F51B7680030159C /* MeshLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450236C01F51B7680030159C /* MeshLoader.swift */; };
 		450236C61F51B9A50030159C /* LightFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450236C51F51B9A50030159C /* LightFeatures.swift */; };
 		450236CC1F51BF0F0030159C /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450236CB1F51BF0F0030159C /* Object.swift */; };
+		455B7F241F5370780030A9D6 /* BlinnPhongDiffuseMaterialComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455B7F231F5370780030A9D6 /* BlinnPhongDiffuseMaterialComponent.swift */; };
 		45BCCBEE1F50D60B00497E86 /* SceneCollada.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBE81F50D60B00497E86 /* SceneCollada.m */; };
 		45BCCBEF1F50D60B00497E86 /* PhysicallyBasedLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBEA1F50D60B00497E86 /* PhysicallyBasedLight.swift */; };
 		45BCCBF01F50D60B00497E86 /* PhysicallyBasedLightFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBEB1F50D60B00497E86 /* PhysicallyBasedLightFeatures.swift */; };
@@ -85,6 +86,7 @@
 		450236C01F51B7680030159C /* MeshLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeshLoader.swift; sourceTree = "<group>"; };
 		450236C51F51B9A50030159C /* LightFeatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightFeatures.swift; sourceTree = "<group>"; };
 		450236CB1F51BF0F0030159C /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		455B7F231F5370780030A9D6 /* BlinnPhongDiffuseMaterialComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinnPhongDiffuseMaterialComponent.swift; sourceTree = "<group>"; };
 		45BCCBE71F50D60B00497E86 /* SceneCollada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneCollada.h; sourceTree = "<group>"; };
 		45BCCBE81F50D60B00497E86 /* SceneCollada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneCollada.m; sourceTree = "<group>"; };
 		45BCCBEA1F50D60B00497E86 /* PhysicallyBasedLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicallyBasedLight.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 			children = (
 				45C2AA9F1F51CE9500716013 /* AmbientLight.swift */,
 				45C2AAA01F51CE9500716013 /* BlinnPhongMaterial.swift */,
+				455B7F231F5370780030A9D6 /* BlinnPhongDiffuseMaterialComponent.swift */,
 				45C2AAB21F51CEFF00716013 /* BlinnPhongScene.swift */,
 				45C2AAA11F51CE9500716013 /* BoxFeatures.swift */,
 				45C2AAA21F51CE9500716013 /* DynamicBox.swift */,
@@ -483,6 +486,7 @@
 				45C2AAB51F51D19400716013 /* PhysicsBodyFeatures.swift in Sources */,
 				45BCCBEE1F50D60B00497E86 /* SceneCollada.m in Sources */,
 				5F8F6E3F1BB6069000D506F4 /* SceneFactory.m in Sources */,
+				455B7F241F5370780030A9D6 /* BlinnPhongDiffuseMaterialComponent.swift in Sources */,
 				450236CC1F51BF0F0030159C /* Object.swift in Sources */,
 				45BCCBF51F50D6BB00497E86 /* PhysicallyBasedMaterial.swift in Sources */,
 				45C2AAA91F51CE9500716013 /* AmbientLight.swift in Sources */,

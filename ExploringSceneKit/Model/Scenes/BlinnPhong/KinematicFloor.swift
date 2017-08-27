@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  KinematicFloor.swift
 //  ExploringSceneKit
 //
 //  Created by Fabrizio Duroni on 26.08.17.
