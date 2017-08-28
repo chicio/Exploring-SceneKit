@@ -5,7 +5,7 @@
 //  Copyright (c) 2015 Fabrizio Duroni. All rights reserved.
 //
 
-#import "Scene.h"
+#import "ExploringSceneKit-Swift.h"
 
 @import UIKit;
 @import SpriteKit;

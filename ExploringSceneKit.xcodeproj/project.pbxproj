@@ -14,6 +14,8 @@
 		450236CC1F51BF0F0030159C /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450236CB1F51BF0F0030159C /* Object.swift */; };
 		4519E8B41F53EEF9000D8042 /* CGFloat+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519E8B31F53EEF9000D8042 /* CGFloat+Random.swift */; };
 		4519E8B61F53F09E000D8042 /* Int+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519E8B51F53F09E000D8042 /* Int+Random.swift */; };
+		4519E8B81F53F600000D8042 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519E8B71F53F600000D8042 /* Scene.swift */; };
+		4519E8BA1F53F625000D8042 /* PhysicsBodyFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519E8B91F53F625000D8042 /* PhysicsBodyFeatures.swift */; };
 		455B7F241F5370780030A9D6 /* BlinnPhongDiffuseMaterialComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455B7F231F5370780030A9D6 /* BlinnPhongDiffuseMaterialComponent.swift */; };
 		45BCCBEE1F50D60B00497E86 /* SceneCollada.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBE81F50D60B00497E86 /* SceneCollada.m */; };
 		45BCCBEF1F50D60B00497E86 /* PhysicallyBasedLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BCCBEA1F50D60B00497E86 /* PhysicallyBasedLight.swift */; };
@@ -29,9 +31,7 @@
 		45C2AAAD1F51CE9500716013 /* DynamicSphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2AAA31F51CE9500716013 /* DynamicSphere.swift */; };
 		45C2AAAE1F51CE9500716013 /* KinematicFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2AAA41F51CE9500716013 /* KinematicFloor.swift */; };
 		45C2AAAF1F51CE9500716013 /* OmniDirectionalLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2AAA51F51CE9500716013 /* OmniDirectionalLight.swift */; };
-		45C2AAB11F51CE9500716013 /* SceneBalls_old.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C2AAA81F51CE9500716013 /* SceneBalls_old.m */; };
 		45C2AAB31F51CEFF00716013 /* BlinnPhongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2AAB21F51CEFF00716013 /* BlinnPhongScene.swift */; };
-		45C2AAB51F51D19400716013 /* PhysicsBodyFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2AAB41F51D19400716013 /* PhysicsBodyFeatures.swift */; };
 		45FA4A991F4CC03700EBBC56 /* backPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A921F4CC03700EBBC56 /* backPBR.png */; };
 		45FA4A9A1F4CC03700EBBC56 /* downPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A931F4CC03700EBBC56 /* downPBR.png */; };
 		45FA4A9B1F4CC03700EBBC56 /* frontPBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FA4A941F4CC03700EBBC56 /* frontPBR.png */; };
@@ -88,7 +88,10 @@
 		450236CB1F51BF0F0030159C /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
 		4519E8B31F53EEF9000D8042 /* CGFloat+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Random.swift"; sourceTree = "<group>"; };
 		4519E8B51F53F09E000D8042 /* Int+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Random.swift"; sourceTree = "<group>"; };
+		4519E8B71F53F600000D8042 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		4519E8B91F53F625000D8042 /* PhysicsBodyFeatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicsBodyFeatures.swift; sourceTree = "<group>"; };
 		455B7F231F5370780030A9D6 /* BlinnPhongDiffuseMaterialComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinnPhongDiffuseMaterialComponent.swift; sourceTree = "<group>"; };
+		457B987D1F53FAE6001BAEC2 /* ExploringSceneKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ExploringSceneKit-Bridging-Header.h"; path = "ExploringSceneKit/ExploringSceneKit-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		45BCCBE71F50D60B00497E86 /* SceneCollada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneCollada.h; sourceTree = "<group>"; };
 		45BCCBE81F50D60B00497E86 /* SceneCollada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneCollada.m; sourceTree = "<group>"; };
 		45BCCBEA1F50D60B00497E86 /* PhysicallyBasedLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicallyBasedLight.swift; sourceTree = "<group>"; };
@@ -104,10 +107,7 @@
 		45C2AAA31F51CE9500716013 /* DynamicSphere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicSphere.swift; sourceTree = "<group>"; };
 		45C2AAA41F51CE9500716013 /* KinematicFloor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinematicFloor.swift; sourceTree = "<group>"; };
 		45C2AAA51F51CE9500716013 /* OmniDirectionalLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OmniDirectionalLight.swift; sourceTree = "<group>"; };
-		45C2AAA71F51CE9500716013 /* SceneBalls_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneBalls_old.h; sourceTree = "<group>"; };
-		45C2AAA81F51CE9500716013 /* SceneBalls_old.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneBalls_old.m; sourceTree = "<group>"; };
 		45C2AAB21F51CEFF00716013 /* BlinnPhongScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinnPhongScene.swift; sourceTree = "<group>"; };
-		45C2AAB41F51D19400716013 /* PhysicsBodyFeatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicsBodyFeatures.swift; sourceTree = "<group>"; };
 		45FA4A921F4CC03700EBBC56 /* backPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backPBR.png; sourceTree = "<group>"; };
 		45FA4A931F4CC03700EBBC56 /* downPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downPBR.png; sourceTree = "<group>"; };
 		45FA4A941F4CC03700EBBC56 /* frontPBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontPBR.png; sourceTree = "<group>"; };
@@ -139,7 +139,6 @@
 		5F3350781BB20CFE003569B8 /* marble1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble1.jpg; sourceTree = "<group>"; };
 		5F3350791BB20CFE003569B8 /* marble3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble3.jpg; sourceTree = "<group>"; };
 		5F33507A1BB20CFE003569B8 /* marble2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble2.jpg; sourceTree = "<group>"; };
-		5F669ABD1BB60E17003139EC /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
 		5F8F6E2F1BB6069000D506F4 /* SceneTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneTableViewController.h; sourceTree = "<group>"; };
 		5F8F6E301BB6069000D506F4 /* SceneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneTableViewController.m; sourceTree = "<group>"; };
 		5F8F6E311BB6069000D506F4 /* SceneRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneRenderViewController.h; sourceTree = "<group>"; };
@@ -219,8 +218,7 @@
 				45C2AAA31F51CE9500716013 /* DynamicSphere.swift */,
 				45C2AAA41F51CE9500716013 /* KinematicFloor.swift */,
 				45C2AAA51F51CE9500716013 /* OmniDirectionalLight.swift */,
-				45C2AAA71F51CE9500716013 /* SceneBalls_old.h */,
-				45C2AAA81F51CE9500716013 /* SceneBalls_old.m */,
+				4519E8B91F53F625000D8042 /* PhysicsBodyFeatures.swift */,
 			);
 			path = BlinnPhong;
 			sourceTree = "<group>";
@@ -274,15 +272,14 @@
 				45C2AA9E1F51CE9500716013 /* BlinnPhong */,
 				45BCCBE61F50D60B00497E86 /* Collada */,
 				45BCCBE91F50D60B00497E86 /* PhysicallyBasedRendering */,
-				5F669ABD1BB60E17003139EC /* Scene.h */,
-				45C2AAB41F51D19400716013 /* PhysicsBodyFeatures.swift */,
-				450236BD1F51B73D0030159C /* Light.swift */,
-				450236C51F51B9A50030159C /* LightFeatures.swift */,
 				450236BF1F51B7680030159C /* Camera.swift */,
-				450236C01F51B7680030159C /* MeshLoader.swift */,
-				450236CB1F51BF0F0030159C /* Object.swift */,
 				4519E8B31F53EEF9000D8042 /* CGFloat+Random.swift */,
 				4519E8B51F53F09E000D8042 /* Int+Random.swift */,
+				450236BD1F51B73D0030159C /* Light.swift */,
+				450236C51F51B9A50030159C /* LightFeatures.swift */,
+				450236C01F51B7680030159C /* MeshLoader.swift */,
+				450236CB1F51BF0F0030159C /* Object.swift */,
+				4519E8B71F53F600000D8042 /* Scene.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -304,6 +301,7 @@
 				5F669AB61BB60A98003139EC /* Scenes */,
 				5F8F6E381BB6069000D506F4 /* SceneFactory.h */,
 				5F8F6E391BB6069000D506F4 /* SceneFactory.m */,
+				457B987D1F53FAE6001BAEC2 /* ExploringSceneKit-Bridging-Header.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -476,7 +474,9 @@
 			files = (
 				45C2AAB31F51CEFF00716013 /* BlinnPhongScene.swift in Sources */,
 				5F8F6E3C1BB6069000D506F4 /* SceneRenderViewController.m in Sources */,
+				4519E8B81F53F600000D8042 /* Scene.swift in Sources */,
 				5FC07B101BACD601004CC435 /* AppDelegate.m in Sources */,
+				4519E8BA1F53F625000D8042 /* PhysicsBodyFeatures.swift in Sources */,
 				45BCCBEF1F50D60B00497E86 /* PhysicallyBasedLight.swift in Sources */,
 				450236C61F51B9A50030159C /* LightFeatures.swift in Sources */,
 				5F8F6E3B1BB6069000D506F4 /* SceneTableViewController.m in Sources */,
@@ -484,9 +484,7 @@
 				45C2AAAE1F51CE9500716013 /* KinematicFloor.swift in Sources */,
 				5FC07B0D1BACD601004CC435 /* main.m in Sources */,
 				45C2AAAA1F51CE9500716013 /* BlinnPhongMaterial.swift in Sources */,
-				45C2AAB11F51CE9500716013 /* SceneBalls_old.m in Sources */,
 				4519E8B41F53EEF9000D8042 /* CGFloat+Random.swift in Sources */,
-				45C2AAB51F51D19400716013 /* PhysicsBodyFeatures.swift in Sources */,
 				45BCCBEE1F50D60B00497E86 /* SceneCollada.m in Sources */,
 				5F8F6E3F1BB6069000D506F4 /* SceneFactory.m in Sources */,
 				455B7F241F5370780030A9D6 /* BlinnPhongDiffuseMaterialComponent.swift in Sources */,
@@ -627,7 +625,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.ExploringSceneKit;
 				PRODUCT_NAME = ExploringSceneKit;
-				SWIFT_OBJC_BRIDGING_HEADER = "ExploringSceneKit/Model/Scenes/ExploringSceneKit-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExploringSceneKit/ExploringSceneKit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -646,7 +644,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.ExploringSceneKit;
 				PRODUCT_NAME = ExploringSceneKit;
-				SWIFT_OBJC_BRIDGING_HEADER = "ExploringSceneKit/Model/Scenes/ExploringSceneKit-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExploringSceneKit/ExploringSceneKit-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

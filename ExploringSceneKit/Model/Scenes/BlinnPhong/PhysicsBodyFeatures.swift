@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 class PhysicsBodyFeatures {
     let mass: CGFloat

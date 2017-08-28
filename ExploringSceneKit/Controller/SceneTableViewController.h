@@ -5,7 +5,7 @@
 //  Created by Fabrizio Duroni on 25/09/15.
 //
 
-#import "Scene.h"
+#import "ExploringSceneKit-Swift.h"
 #import "SceneFactory.h"
 
 @import UIKit;

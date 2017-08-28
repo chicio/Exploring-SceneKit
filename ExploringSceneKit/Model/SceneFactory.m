@@ -1,14 +1,11 @@
 //
 //  SceneFactory.m
-//  ChicioSceneKit
+//  ExploringSceneKit
 //
 //  Created by Fabrizio Duroni on 26/09/15.
 //
 
-#import "Scene.h"
-#import "SceneBalls_old.h"
 #import "SceneCollada.h"
-#import "ExploringSceneKit-Swift.h"
 #import "SceneFactory.h"
 
 @implementation SceneFactory
@@ -23,7 +20,7 @@
         case 2:
             return [[PhysicallyBasedScene alloc] init];
         default:
-            return [[SceneBalls_old alloc]init];
+            return [[BlinnPhongScene alloc] init];
     }
 }
 

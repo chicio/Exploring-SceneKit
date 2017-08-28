@@ -5,8 +5,7 @@
 //  Created by Fabrizio Duroni on 19/09/15.
 //
 
-#import "Scene.h"
-#import "SceneBalls_old.h"
+#import "ExploringSceneKit-Swift.h"
 #import "SceneCollada.h"
 #import "SceneRenderViewController.h"
 

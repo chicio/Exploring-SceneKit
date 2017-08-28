@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.sceneNames = @[@"Scene Balls", @"Scene Collada", @"Scene Physically based"];
+    self.sceneNames = @[@"Scene Blinn Phong", @"Scene Collada", @"Scene Physically based"];
     self.sceneFactory = [SceneFactory new];
 }
 
