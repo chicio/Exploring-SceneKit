@@ -10,14 +10,23 @@ import SceneKit
 class Camera {
     let node: SCNNode
     
+    init(cameraNode: SCNNode) {
+        node = cameraNode
+        adjustNearAndFarPlaneAutomatically()
+    }
+    
     init(position: SCNVector3, rotation: SCNVector4, pivot: SCNMatrix4? = nil) {
         node = SCNNode()
         createCameraOnNode()
+        adjustNearAndFarPlaneAutomatically()
         set(position: position, rotation: rotation, pivot: pivot)
     }
     
     private func createCameraOnNode() {
         node.camera = SCNCamera()
+    }
+    
+    private func adjustNearAndFarPlaneAutomatically() {
         node.camera?.automaticallyAdjustsZRange = true
     }
     

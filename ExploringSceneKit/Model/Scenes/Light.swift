@@ -10,6 +10,10 @@ import SceneKit
 class Light {
     let node: SCNNode
     
+    init(lightNode: SCNNode) {
+        node = lightNode
+    }
+    
     init(lightFeatures: LightFeatures) {
         node = SCNNode()
         createLight()

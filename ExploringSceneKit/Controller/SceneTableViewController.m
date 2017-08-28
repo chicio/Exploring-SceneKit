@@ -5,13 +5,13 @@
 //  Created by Fabrizio Duroni on 25/09/15.
 //
 
+#import "SceneFactory.h"
 #import "SceneRenderViewController.h"
 #import "SceneTableViewController.h"
 
 @interface SceneTableViewController ()
 
 @property (nonatomic, strong) NSArray *sceneNames;
-@property (nonatomic, strong) SceneFactory *sceneFactory;
 @property (nonatomic, assign) NSInteger sceneSelected;
 
 @end
@@ -21,7 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.sceneNames = @[@"Scene Blinn Phong", @"Scene Collada", @"Scene Physically based"];
-    self.sceneFactory = [SceneFactory new];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -56,7 +55,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     SceneRenderViewController *sceneRenderViewController = (SceneRenderViewController *)segue.destinationViewController;
-    sceneRenderViewController.scene = [self.sceneFactory makeScene:self.sceneSelected];
+    sceneRenderViewController.scene = [SceneFactory makeScene:self.sceneSelected];
 }
 
 @end

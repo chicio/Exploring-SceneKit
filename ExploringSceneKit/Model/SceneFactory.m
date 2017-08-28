@@ -10,7 +10,7 @@
 
 @implementation SceneFactory
 
-- (SCNScene<Scene> *)makeScene:(NSInteger)sceneId {
++ (SCNScene<Scene> *)makeScene:(NSInteger)sceneId {
     
     switch (sceneId) {
         case 0:
