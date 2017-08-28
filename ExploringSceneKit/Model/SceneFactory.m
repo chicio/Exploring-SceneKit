@@ -18,7 +18,6 @@
     switch (sceneId) {
         case 0:
             return [[BlinnPhongScene alloc] init];
-            //return [[SceneBalls_old alloc]init];
         case 1:
             return [[SceneCollada alloc]init];
         case 2:

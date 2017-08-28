@@ -129,7 +129,7 @@ import SceneKit
             material: BlinnPhongMaterial(
                 ambient: UIColor.lightGray,
                 diffuse: BlinnPhongDiffuseMaterialComponent(value: "pool.jpg"),
-                specular: 0.4
+                specular: 0.9
             ),
             physicsBodyFeature: PhysicsBodyFeatures(mass: 1.5, rollingFriction: 0.1),
             radius: 10.0,
@@ -161,6 +161,21 @@ import SceneKit
     }
     
     func actionForTwofingerGesture() {
-        
+        let randomX = CGFloat.randomIn(minRange: 0.0, maxRange: 50.0)
+        let randomZ = CGFloat.randomIn(minRange: 0.0, maxRange: 50.0)
+        let randomRadius = CGFloat.randomIn(minRange: 0.0, maxRange: 15.0)
+        let randomTexture = String(format: "checked%d.jpg", Int.randomIn(minRange: 1, maxRange: 2))
+        let sphere = DynamicSphere(
+            material: BlinnPhongMaterial(
+                ambient: UIColor.lightGray,
+                diffuse: BlinnPhongDiffuseMaterialComponent(value: randomTexture),
+                specular: CGFloat.randomIn(minRange: 0.0, maxRange: 2.0)
+            ),
+            physicsBodyFeature: PhysicsBodyFeatures(mass: randomRadius * 10.0, rollingFriction: 0.2),
+            radius: randomRadius,
+            position: SCNVector3(randomX, 120, randomZ),
+            rotation: SCNVector4(0, 0, 0, 0)
+        )
+        rootNode.addChildNode(sphere.node)
     }
 }
