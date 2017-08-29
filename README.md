@@ -22,7 +22,7 @@ The first scene contains some meshes generated using the ones already integrated
 ![Scene 1](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/blinn-phong-scene.jpg)
 
 #### Scene 2
-In the second scene I try to import a model in collada format created with Blender. I added some animation using CAAnimation to move the camera in the scene.
+In the second scene I try to import a model, lights and camera from a collada file created with Blender. I added some animation using CAAnimation to move the camera in the scene. All textures are automatically loaded within the model.
 
 ![Scene 2](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/collada-scene.jpg)
 
