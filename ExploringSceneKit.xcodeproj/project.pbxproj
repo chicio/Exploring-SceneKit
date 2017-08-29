@@ -295,8 +295,6 @@
 				450236C01F51B7680030159C /* MeshLoader.swift */,
 				450236CB1F51BF0F0030159C /* Object.swift */,
 				4519E8B71F53F600000D8042 /* Scene.swift */,
-				4588BC291F54C4D500FBC7A0 /* SceneFactory.h */,
-				4588BC2A1F54C4D500FBC7A0 /* SceneFactory.m */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -315,6 +313,8 @@
 		5F8F6E331BB6069000D506F4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4588BC291F54C4D500FBC7A0 /* SceneFactory.h */,
+				4588BC2A1F54C4D500FBC7A0 /* SceneFactory.m */,
 				5F669AB61BB60A98003139EC /* Scenes */,
 			);
 			path = Model;

@@ -16,7 +16,7 @@
         case 0:
             return [[BlinnPhongScene alloc] init];
         case 1:
-            return [[SceneCollada alloc]init];
+            return [[ColladaScene alloc]init];
         case 2:
             return [[PhysicallyBasedScene alloc] init];
         default:

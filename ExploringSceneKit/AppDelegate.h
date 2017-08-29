@@ -1,9 +1,8 @@
 //
 //  AppDelegate.h
-//  ChicioSceneKit
+//  ExploringSceneKit
 //
 //  Created by Fabrizio Duroni on 19/09/15.
-//  Copyright © 2015 Fabrizio Duroni. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

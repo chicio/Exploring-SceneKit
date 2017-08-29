@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  ChicioSceneKit
+//  ExploringSceneKit
 //
 //  Created by Fabrizio Duroni on 19/09/15.
 //
