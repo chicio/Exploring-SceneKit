@@ -5,8 +5,6 @@
 //  Created by Fabrizio Duroni on 19/09/15.
 //
 
-#import "ExploringSceneKit-Swift.h"
-#import "SceneCollada.h"
 #import "SceneRenderViewController.h"
 
 @interface SceneRenderViewController()

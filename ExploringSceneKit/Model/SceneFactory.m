@@ -5,7 +5,6 @@
 //  Created by Fabrizio Duroni on 26/09/15.
 //
 
-#import "SceneCollada.h"
 #import "SceneFactory.h"
 
 @implementation SceneFactory
