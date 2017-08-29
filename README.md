@@ -19,11 +19,15 @@ The app contains three example. In each one of them multiple features of SceneKi
 #### Scene 1
 The first scene contains some meshes generated using the ones already integrated in SceneKit. This one is able to render sphere, plane, box, pyramid, cone, cylinder, capsule, tube and torus. In this scene we use SCNSphere and SCNBox customized with some physic property to simulated different collision behavious and interaction. 
 
-![Scene 1](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/scene1.png)
+![Scene 1](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/blinn-phong-scene.jpg)
 
 #### Scene 2
 In the second scene I try to import a model in collada format created with Blender. I added some animation using CAAnimation to move the camera in the scene.
 
-![Scene 2](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/scene2.png)
+![Scene 2](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/collada-scene.jpg)
 
 #### Scene 3
+
+![Scene 3](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/physically-based-rendering-scene.jpg)
+
+![Scene 3 back](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/physically-based-rendering-scene-back.jpg)
