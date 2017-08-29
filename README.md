@@ -22,11 +22,12 @@ The first scene contains some meshes generated using the ones already integrated
 ![Scene 1](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/blinn-phong-scene.jpg)
 
 #### Scene 2
-In the second scene I try to import a model, lights and camera from a collada file created with Blender. I added some animation using CAAnimation to move the camera in the scene. All textures are automatically loaded within the model.
+In the second scene I tried to import a model, lights and camera from a collada file created with Blender. I added some animation using CAAnimation to move the camera in the scene. All textures are automatically loaded within the model (as consequence of the fact that also its material are automatically loaded).
 
 ![Scene 2](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/collada-scene.jpg)
 
 #### Scene 3
+The third scene contains an example of Physically based rendering engine contained in SceneKit. 
 
 ![Scene 3](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/physically-based-rendering-scene.jpg)
 
