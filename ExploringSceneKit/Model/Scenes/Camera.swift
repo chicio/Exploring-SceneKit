@@ -10,15 +10,15 @@ import SceneKit
 class Camera {
     let node: SCNNode
     
-    init(cameraNode: SCNNode) {
+    init(cameraNode: SCNNode, wantsHDR: Bool = false) {
         node = cameraNode
-        adjustNearAndFarPlaneAutomatically()
+        setAdvancedFeatures(wantsHDR: wantsHDR)
     }
     
-    init(position: SCNVector3, rotation: SCNVector4, pivot: SCNMatrix4? = nil) {
+    init(position: SCNVector3, rotation: SCNVector4, wantsHDR: Bool = false, pivot: SCNMatrix4? = nil) {
         node = SCNNode()
         createCameraOnNode()
-        adjustNearAndFarPlaneAutomatically()
+        setAdvancedFeatures(wantsHDR: wantsHDR)
         set(position: position, rotation: rotation, pivot: pivot)
     }
     
@@ -26,8 +26,9 @@ class Camera {
         node.camera = SCNCamera()
     }
     
-    private func adjustNearAndFarPlaneAutomatically() {
+    private func setAdvancedFeatures(wantsHDR: Bool) {
         node.camera?.automaticallyAdjustsZRange = true
+        node.camera?.wantsHDR = wantsHDR
     }
     
     private func set(position aPosition: SCNVector3, rotation aRotation: SCNVector4, pivot aPivot: SCNMatrix4?) {

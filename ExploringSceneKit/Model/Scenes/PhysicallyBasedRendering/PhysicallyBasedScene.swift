@@ -29,6 +29,7 @@ import SceneKit.ModelIO
         camera = Camera(
             position: SCNVector3Make(0, 2, 0),
             rotation: SCNVector4Make(1, 0, 0, GLKMathDegreesToRadians(-5)),
+            wantsHDR: true,
             pivot: SCNMatrix4MakeTranslation(0, 0, -8)
         )
         rootNode.addChildNode(camera.node)
