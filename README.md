@@ -27,8 +27,16 @@ In the second scene I tried to import a model, lights and camera from a collada 
 ![Scene 2](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/collada-scene.jpg)
 
 #### Scene 3
-The third scene contains an example of Physically based rendering engine contained in SceneKit. 
+The third scene contains an example of the Physically based rendering engine contained in SceneKit. In this scene the following features of PBR in SceneKit have been used:
+
+* physically based light with customizable intensity and temperature
+* physically based material using ad-hoc textures and values
+* HDR post processing
+
+The mesh used for the scene are taken from the [stanford scan repository](http://graphics.stanford.edu/data/3Dscanrep/ "stanford scan repository")
 
 ![Scene 3](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/physically-based-rendering-scene.jpg)
+
+![Scene 3 right](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/physically-based-rendering-scene-right.jpg)
 
 ![Scene 3 back](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/physically-based-rendering-scene-back.jpg)
