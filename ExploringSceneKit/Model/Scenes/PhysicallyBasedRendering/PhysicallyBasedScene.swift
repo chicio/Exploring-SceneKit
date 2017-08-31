@@ -78,7 +78,7 @@ import SceneKit.ModelIO
             mesh: MeshLoader.loadMeshWith(name: "Floor", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "floor-diffuse.png",
-                roughness: 0.8,
+                roughness: NSNumber(value: 0.8),
                 metalness: "floor-metalness.png",
                 normal: "floor-normal.png",
                 ambientOcclusion: "floor-ambient-occlusion.png"
@@ -94,7 +94,7 @@ import SceneKit.ModelIO
             mesh: MeshLoader.loadMeshWith(name: "Dragon", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "rustediron-diffuse.png",
-                roughness: 0.3,
+                roughness: NSNumber(value: 0.3),
                 metalness: "rustediron-metalness.png",
                 normal: "rustediron-normal.png"
             ),
@@ -109,7 +109,7 @@ import SceneKit.ModelIO
             mesh: MeshLoader.loadMeshWith(name: "HappyBuddha", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "cement-diffuse.png",
-                roughness: 0.8,
+                roughness: NSNumber(value: 0.8),
                 metalness: "cement-metalness.png",
                 normal: "cement-normal.png",
                 ambientOcclusion: "cement-ambient-occlusion.png"
@@ -125,7 +125,7 @@ import SceneKit.ModelIO
             mesh: MeshLoader.loadMeshWith(name: "Lucy", ofType: "obj"),
             material: PhysicallyBasedMaterial(
                 diffuse: "copper-diffuse.png",
-                roughness: 0.0,
+                roughness: NSNumber(value: 0.0),
                 metalness: "copper-metalness.png",
                 normal: "copper-normal.png"
             ),
