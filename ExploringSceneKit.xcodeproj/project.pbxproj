@@ -126,8 +126,8 @@
 		45FA4AA41F4CDCE400EBBC56 /* rustediron-diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-diffuse.png"; sourceTree = "<group>"; };
 		45FA4AA61F4CDCE400EBBC56 /* rustediron-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-normal.png"; sourceTree = "<group>"; };
 		45FA4AAA1F4CDD3F00EBBC56 /* rustediron-metalness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-metalness.png"; sourceTree = "<group>"; };
-		45FA4AAC1F4CE1DD00EBBC56 /* Dragon.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dragon.obj; sourceTree = "<group>"; };
-		45FA4AAE1F4CE64100EBBC56 /* Floor.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Floor.obj; sourceTree = "<group>"; };
+		45FA4AAC1F4CE1DD00EBBC56 /* Dragon.obj */ = {isa = PBXFileReference; fileEncoding = 1; lastKnownFileType = text; path = Dragon.obj; sourceTree = "<group>"; };
+		45FA4AAE1F4CE64100EBBC56 /* Floor.obj */ = {isa = PBXFileReference; fileEncoding = 1; lastKnownFileType = text; path = Floor.obj; sourceTree = "<group>"; };
 		45FA4AB01F4CE91C00EBBC56 /* floor-ambient-occlusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor-ambient-occlusion.png"; sourceTree = "<group>"; };
 		45FA4AB11F4CE91C00EBBC56 /* floor-diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor-diffuse.png"; sourceTree = "<group>"; };
 		45FA4AB21F4CE91C00EBBC56 /* floor-metalness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor-metalness.png"; sourceTree = "<group>"; };
@@ -135,12 +135,12 @@
 		45FA4AB81F4CF88F00EBBC56 /* copper-diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copper-diffuse.png"; sourceTree = "<group>"; };
 		45FA4AB91F4CF88F00EBBC56 /* copper-metalness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copper-metalness.png"; sourceTree = "<group>"; };
 		45FA4ABA1F4CF88F00EBBC56 /* copper-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copper-normal.png"; sourceTree = "<group>"; };
-		45FA4ABE1F4CF9CF00EBBC56 /* Lucy.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lucy.obj; sourceTree = "<group>"; };
+		45FA4ABE1F4CF9CF00EBBC56 /* Lucy.obj */ = {isa = PBXFileReference; fileEncoding = 1; lastKnownFileType = text; path = Lucy.obj; sourceTree = "<group>"; };
 		45FA4AC01F4CFB1100EBBC56 /* cement-ambient-occlusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cement-ambient-occlusion.png"; sourceTree = "<group>"; };
 		45FA4AC11F4CFB1100EBBC56 /* cement-diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cement-diffuse.png"; sourceTree = "<group>"; };
 		45FA4AC21F4CFB1100EBBC56 /* cement-metalness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cement-metalness.png"; sourceTree = "<group>"; };
 		45FA4AC31F4CFB1100EBBC56 /* cement-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cement-normal.png"; sourceTree = "<group>"; };
-		45FA4AC81F4CFC4700EBBC56 /* HappyBuddha.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HappyBuddha.obj; sourceTree = "<group>"; };
+		45FA4AC81F4CFC4700EBBC56 /* HappyBuddha.obj */ = {isa = PBXFileReference; fileEncoding = 1; lastKnownFileType = text; path = HappyBuddha.obj; sourceTree = "<group>"; };
 		5F005DE41BB0AADC0048E2BE /* checked1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checked1.jpg; sourceTree = "<group>"; };
 		5F005DE51BB0AADC0048E2BE /* checked2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checked2.jpg; sourceTree = "<group>"; };
 		5F005DE61BB0AADC0048E2BE /* floor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floor.jpg; sourceTree = "<group>"; };

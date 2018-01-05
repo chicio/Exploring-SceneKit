@@ -33,7 +33,7 @@ The third scene contains an example of the Physically based rendering engine con
 * physically based material using ad-hoc textures and values
 * HDR post processing
 
-The mesh used for the scene are taken from the [stanford scan repository](http://graphics.stanford.edu/data/3Dscanrep/ "stanford scan repository").
+The mesh used for the scene are taken from the [stanford scan repository](http://graphics.stanford.edu/data/3Dscanrep/ "stanford scan repository"). You can find more information about this scene in [my post blog "SceneKit and physically based rendering"](http://www.fabrizioduroni.it/2018/01/03/scene-kit-physically-based-rendering.html "SceneKit and physically based rendering" )
 
 ![Scene 3](https://raw.githubusercontent.com/chicio/Exploring-SceneKit/master/Screenshots/physically-based-rendering-scene.jpg)
 

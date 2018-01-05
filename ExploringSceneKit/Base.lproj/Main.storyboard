@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9L6-rX-KRt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9L6-rX-KRt">
     <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,10 +23,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2hp-GL-CYR">
-                                <rect key="frame" x="0.0" y="64" width="667" height="311"/>
+                                <rect key="frame" x="0.0" y="32" width="667" height="343"/>
                             </sceneKitView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GP5-jk-Xdm">
-                                <rect key="frame" x="20" y="72" width="39" height="30"/>
+                                <rect key="frame" x="20" y="40" width="39" height="30"/>
                                 <state key="normal" title="Close"/>
                                 <connections>
                                     <action selector="close:" destination="BV1-FR-VrT" eventType="touchUpInside" id="fMw-hh-trY"/>
@@ -35,6 +35,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GP5-jk-Xdm" secondAttribute="trailingMargin" id="2p5-I1-pRo"/>
                             <constraint firstItem="GP5-jk-Xdm" firstAttribute="top" secondItem="Ie5-LD-65q" secondAttribute="bottom" constant="8" id="AHB-Gp-Bu8"/>
                             <constraint firstItem="bTc-zi-O3C" firstAttribute="top" secondItem="2hp-GL-CYR" secondAttribute="bottom" id="Kcx-dc-Hr4"/>
                             <constraint firstItem="2hp-GL-CYR" firstAttribute="top" secondItem="Ie5-LD-65q" secondAttribute="bottom" id="Pfa-S0-Lys"/>
@@ -89,7 +90,7 @@
             <objects>
                 <navigationController id="9L6-rX-KRt" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wcn-EB-Kh8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
