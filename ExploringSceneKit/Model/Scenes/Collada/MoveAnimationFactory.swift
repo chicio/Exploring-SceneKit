@@ -14,7 +14,7 @@ class MoveAnimationFactory {
         move.duration = time
         move.toValue = position
         move.isRemovedOnCompletion = false
-        move.fillMode = kCAFillModeForwards
+        move.fillMode = CAMediaTimingFillMode.forwards
         return move
     }
 }

@@ -1,4 +1,4 @@
 language: objective-c
-osx_image: xcode9
+osx_image: xcode11
 script:
  - xcodebuild -project ExploringSceneKit.xcodeproj -scheme ExploringSceneKit clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO 
